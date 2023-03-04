@@ -1,0 +1,26 @@
+@use "variables" as v;
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.6rem;
+  letter-spacing: 0.05em;
+  color: v.color(main);
+  font-family: "Noto Sans JP", sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+}
+img {
+  width: 100%;
+  vertical-align: bottom;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}

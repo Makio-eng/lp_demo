@@ -1,0 +1,10 @@
+/* カラー設定*/
+$colors: (
+  main: #333333,
+  sub: #3ba6c9,
+  bg: #eefbfb,
+  required: #0c449b,
+);
+@function color($color) {
+  @return #{map-get($colors, $color)};
+}
